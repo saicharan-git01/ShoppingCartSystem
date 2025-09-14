@@ -1,41 +1,42 @@
 # ShoppingCartSystem
-This Java program simulates a shopping cart system where users can, add multiple products to a cart. apply different types of discounts (Festive, Bulk)  Pay the final amount using an OnlinePayment method. It demonstrates object-oriented programming concepts such as abstraction, inheritance, polymorphism, and interface implementation
+Project Overview
+This ia a simple java based Shopping Cart System implemented in java using concepts of OOP, abstraction, interfaces, and polymorphism,
+- Add products to a shopping cart
+- Apply Festive or Bulk discounts
+- Calculate the final payable amount
 
-#🧾 Features
--Add an arbitrary number of products to a shopping cart.
--Calculate total price for each product and overall cart value.
->Apply:
- -Festive Discount (10% off total)
- -Bulk Discount (20% off if any product quantity > 5)
--Use an online payment method to "pay" the final bill.
--Gracefully handle unknown discount types (no discount applied).
->
-# 📂 File Structure
-ShoppingCartSystem.java
-README.md
+  # Features
+- Product Managemen -> Each product has a name ,price, and quantity
+- Discount System -> two types of discounts one is Festive and another one is Bulk
+      FestiveDiscount has 10% off discount
+      BulkDiscount has 20% off discount 
+- Payment Interface ->Online payment implementation for extensibility
+- Clean OOP Design using abstract classes, interfaces, and Lists
 
-# How to Run
-. Clone the repository
-git clone https://github.com/saicharan-git01/ShoppingCartSystem.git
+# Tech Stack
+Language : java
+Paradigms: Object-Oriented Programming (OOP)
+Tools    : Scanner for input, console- based execution
+
+#How to Run
+--bash 
+git clone https://github.com/<abhilashbusa-gitacc01>/ShoppingCartSystem.git
 cd ShoppingCartSystem
+
 javac ShoppingCartSystem.java
-java ShoppingCartSystem
+java ShoppingcartSystem
 
-  #input
-    3
-    apple 50 2
-    banana 20 6
-    milk 30 1
-    bulk
+#input
+3
+Laptop 50000 1
+Mousw 500 2
+Keybord 1500 6
 
- >>🧠 OOP Concepts Used
+>Project Structre
+ShoppingCartSystem  #main program file
+README.md           #Dpcumentation
 
--Encapsulation: Product details are private with getters.
--Abstraction: Discount class provides a blueprint for discount strategies.
--Inheritance: FestiveDiscount and BulkDiscount extend Discount.
--Polymorphism: applyDiscount() behaves differently based on discount type.
--Interfaces: Payment is an interface implemented by OnlinePayment.
-
-# Author 
-Developed by Saicharan
-Email: bondlavarusaicharan@gmail.com
+# Author
+. Developed by Abhilash Busa
+. Email : abhilashbusa442@gmail.com
+. gitHub: abhilashbuasa-gitacc01
