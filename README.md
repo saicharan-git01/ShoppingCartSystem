@@ -34,9 +34,9 @@ Keybord 1500 6
 
 >Project Structre
 ShoppingCartSystem  #main program file
-README.md           #Dpcumentation
+README.md           #Documentation
 
 # Author
-. Developed by Abhilash Busa
-. Email : abhilashbusa442@gmail.com
-. gitHub: abhilashbuasa-gitacc01
+. Developed by Sai charan
+. Email : bondlavarusaicharan@gmail.com
+. gitHub: saicharan-git01
